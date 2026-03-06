@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pink Background with Photo</title>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffb6c1, #ffc0cb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .my-photo {
+    max-width: 100%;   /* ensures it never exceeds screen width */
+    max-height: 100%;  /* ensures it never exceeds screen height */
+    border-radius: 15px;
+    object-fit: contain; /* keeps aspect ratio without stretching */
+  }
+</style>
+</head>
+<body>
+
+<img src="https://image2url.com/r2/default/images/1772829876753-ab743884-4e26-4740-a999-678894df044b.jpg" alt="My Photo" class="my-photo">
+
+</body>
+</html>
